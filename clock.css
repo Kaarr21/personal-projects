@@ -1,0 +1,34 @@
+body {
+      font-family: 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+      background-color: #111;
+      color: #fff;
+      transition: background-color 0.3s, color 0.3s;
+    }
+    .clock {
+      font-size: 5rem;
+      letter-spacing: 2px;
+    }
+    .toggle-btn {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      padding: 10px 20px;
+      cursor: pointer;
+      background-color: #444;
+      border: none;
+      color: #fff;
+      border-radius: 5px;
+    }
+    body.light {
+      background-color: #fff;
+      color: #000;
+    }
+    body.light .toggle-btn {
+      background-color: #ddd;
+      color: #000;
+    }
